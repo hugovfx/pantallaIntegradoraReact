@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import flag from '../img/language.png'
 
 const Navbar = () => {
     return (
@@ -15,7 +16,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img id="language-img" src="img/language.png" alt="Language" width="20" height="20" />
+                            <img id="language-img" src={flag} alt="Language" width="20" height="20" />
                         </Link>
                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown" id="language-options">
                             <a className="dropdown-item" href="#" data-lang="en">English</a>

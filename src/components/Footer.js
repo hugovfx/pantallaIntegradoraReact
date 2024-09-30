@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../img/logo.png';
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row py-4">
                     <div className="col-md-3">
-                        <img src="img/logo.png" alt="Logo" style={{ width: '200px' }} />
+                        <img src={logo} alt="Logo" style={{ width: '200px' }} />
                     </div>
                     <div className="col-md-6">
                         <h5 id="about">About us</h5>
