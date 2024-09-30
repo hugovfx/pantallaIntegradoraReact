@@ -1,0 +1,16 @@
+/* src/styles/footerstyle.css */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer h5 {
+    color: white;
+  }
+  
