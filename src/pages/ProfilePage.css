@@ -1,0 +1,32 @@
+.profile-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-info {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+    margin-top: 0;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+.profile-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
